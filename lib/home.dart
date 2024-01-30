@@ -34,6 +34,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[200],
       body: Center(
         child:
             PlayButton(onTap: buttonPressed, isButtonPressed: isButtonPressed),

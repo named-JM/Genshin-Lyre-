@@ -25,25 +25,24 @@ class PlayButton extends StatelessWidget {
               color: isButtonPressed ? Colors.grey[600] : Colors.black),
         )),
         decoration: BoxDecoration(
-            color: isButtonPressed ? Colors.white : Colors.grey[200],
+            color: isButtonPressed ? Colors.grey[100] : Colors.grey[200],
             borderRadius: BorderRadius.circular(12),
             boxShadow: isButtonPressed
                 ? [
                     //no shadows if button pressed
                   ]
                 : [
-                    //darker bot right
                     BoxShadow(
-                      color: Colors.black,
-                      offset: Offset(6, 6),
-                      blurRadius: 1,
+                      color: Colors.grey.shade500,
+                      offset: Offset(5, 5),
+                      blurRadius: 20,
                       spreadRadius: 1,
                     ),
-                    //lighter top left
+                    // Top left shadow is lighter
                     BoxShadow(
                       color: Colors.white,
-                      offset: Offset(-3, -3),
-                      blurRadius: 1,
+                      offset: Offset(-5, -5),
+                      blurRadius: 10,
                       spreadRadius: 1,
                     ),
                   ]),
