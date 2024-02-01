@@ -49,8 +49,8 @@ class _GenshinLyreState extends State<GenshinLyre> {
           // decoration: BoxDecoration(
           //   image: DecorationImage(
           //     image: AssetImage(
-          //         'Assets/images/playing-lyre.gif'), // Replace with your background image path
-          //     fit: BoxFit.cover,
+          //         'Assets/images/gif/venti.gif'), // Replace with your background image path
+          //     fit: BoxFit.contain,
           //   ),
           // ),
           child: Padding(

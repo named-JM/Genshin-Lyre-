@@ -34,16 +34,16 @@ class PlayButton extends StatelessWidget {
                 : [
                     BoxShadow(
                       color: Colors.grey.shade500,
-                      offset: Offset(5, 5),
-                      blurRadius: 20,
-                      spreadRadius: 1,
+                      offset: Offset(3, 3),
+                      //blurRadius: 1,
+                      // spreadRadius: 1,
                     ),
                     // Top left shadow is lighter
                     BoxShadow(
                       color: Colors.white,
-                      offset: Offset(-5, -5),
-                      blurRadius: 10,
-                      spreadRadius: 1,
+                      offset: Offset(-3, -3),
+                      // blurRadius: 1,
+                      // spreadRadius: 1,
                     ),
                   ]),
       ),

@@ -35,9 +35,15 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[200],
-      body: Center(
-        child:
-            PlayButton(onTap: buttonPressed, isButtonPressed: isButtonPressed),
+      body: Container(
+        decoration: BoxDecoration(
+            image: DecorationImage(
+                image: AssetImage("Assets/images/gif/genshin-impact.gif"),
+                fit: BoxFit.cover)),
+        child: Center(
+          child: PlayButton(
+              onTap: buttonPressed, isButtonPressed: isButtonPressed),
+        ),
       ),
     );
   }
